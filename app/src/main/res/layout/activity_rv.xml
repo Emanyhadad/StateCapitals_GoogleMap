@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RVActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Asia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/asia"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_Asia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_Africa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/africa"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_Africa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ />
+
+    <TextView
+        android:id="@+id/tv_Europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/europe"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_Europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tv_Australia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/australia"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/RV_Australia"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/tv_North_American"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/north_american"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/RV_North_American"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/tv_South_American"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/south_american"
+        android:textAllCaps="true"
+        android:textColor="#5296E3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_South_America"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
